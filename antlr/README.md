@@ -1,6 +1,19 @@
 [Download page](https://www.antlr.org/download.html)
 
 # Install
+
+## install via pip
+```
+pip install antlr4-tools
+```
+
+Troubleshoot
+- `FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/pip'` is a hard code path issue
+  - prompt: when `which pip` == `/usr/local/bin/pip`
+
+
+
+## install via jar
 ```
 curl -O https://www.antlr.org/download/antlr-4.12.0-complete.jar
 export CLASSPATH=".:$PWD/antlr-4.12.0-complete.jar:$CLASSPATH"
