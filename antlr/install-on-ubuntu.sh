@@ -8,5 +8,6 @@ via-pip(){
 via-apt(){
   sudo apt install -y antlr4
 }
+./post-install.sh
 
 $@
