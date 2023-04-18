@@ -4,10 +4,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  install:
-
+  pip-install:
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python 3.10
@@ -16,4 +14,9 @@ jobs:
         python-version: "3.10"
     - name: Install ANTLR
       run: pip install antlr4-tools
-    
+  apt-install:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Install ANTLR
+      run: apt install -y antlr4
+   
