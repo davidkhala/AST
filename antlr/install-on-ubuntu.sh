@@ -1,11 +1,11 @@
 set -e
-via-pip(){
+via-pip() {
   pip install antlr4-tools
   # reload profile inline
   . ~/.profile
 
 }
-via-apt(){
+via-apt() {
   sudo apt install -y antlr4
 }
 ./post-install.sh
