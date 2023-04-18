@@ -6,6 +6,7 @@ via-pip() {
 
 }
 via-apt() {
+  sudo apt update 
   sudo apt install -y antlr4
 }
 
