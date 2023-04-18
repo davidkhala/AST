@@ -1,8 +1,7 @@
 name: ANTLR
 
 on:
-  push:
-
+  workflow_dispatch:
 
 jobs:
   install:
