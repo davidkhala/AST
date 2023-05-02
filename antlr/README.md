@@ -5,3 +5,4 @@
 
 - Listener
   - which does top-down with depth-first search (default)
+# [install guide](./install.md)
