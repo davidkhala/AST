@@ -21,9 +21,7 @@ parse
 
 error
  : UNEXPECTED_CHAR
-   {
-     throw new RuntimeException("UNEXPECTED_CHAR=" + $UNEXPECTED_CHAR.text);
-   }
+   {raise RuntimeException("UNEXPECTED_CHAR=" + $UNEXPECTED_CHAR.text);}
  ;
 
  sql_stmt_list
