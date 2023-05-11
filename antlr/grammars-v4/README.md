@@ -7,3 +7,4 @@ Unsupported list in Grammar v4 official repository
 
 # Community grammars
 - [SAS](https://github.com/xueqilsj/sas-grammar)
+- [Another teradata](https://github.com/cmedved/Teradata-SQL-Parser)
