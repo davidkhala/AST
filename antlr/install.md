@@ -24,12 +24,3 @@ alias grun="java org.antlr.v4.gui.TestRig"
 # Install ANLTR4 dependency for program language
 - [Python](https://github.com/davidkhala/AST/tree/main/antlr/python)
 
-# Usage
-For sample
-```
-antlr4 -Dlanguage=Python3 grammar/Teradata.G4 -Xexact-output-dir -o teradata
-```
-- It will generate reusable library for next step program coding. The library program language is specified by `-D`
-- The grammar file describing the parser capability to identify syntax is specified by `grammar/Teradata.G4`
-- The output folder of generated resuable library is specified by `-o`
-- Use `-Xexact-output-dir` to force ANTLR4 to use your specified output folder directly than folllowing ANTLR4 default folder structure.
