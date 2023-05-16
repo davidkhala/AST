@@ -9,7 +9,7 @@ pip install antlr4-tools
 
 Troubleshoot
 - `FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/pip'` is a hard code path issue
-  - prompt: when `which pip` == `/usr/local/bin/pip`
+  - appears when `which pip` == `/usr/local/bin/pip`
 
 
 
