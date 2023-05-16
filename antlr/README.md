@@ -5,4 +5,5 @@
 
 - Listener
   - which does top-down with depth-first search (default)
+  - Preferred way than use Visitor
 # [install guide](./install.md)
